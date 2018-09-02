@@ -1,0 +1,19 @@
+{
+    "name": "alaraiabdiallah/laravel-apicontroller",
+    "description": "default api controller methods, so you just focus on data and validation",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ala Rai",
+            "email": "alaraiabdillah@gmail.com"
+        }
+    ],
+    "require": {
+        "php":"^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Api\\": "src/"
+        }
+    }
+}
